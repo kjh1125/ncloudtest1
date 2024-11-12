@@ -21,7 +21,7 @@ public class Test2 {
         while(true){
             System.out.println("키를 입력하시오");
             String answer = s.next();
-            if(n.containsKey(answer)==true){
+            if(n.containsKey(answer)){
                 System.out.println("해당 키의 값은:"+n.get(answer));
             }
             else{
